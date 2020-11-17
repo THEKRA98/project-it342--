@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCC6C6"
+    tools:context=".MainActivity3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/back3"
+            android:layout_width="53dp"
+            android:layout_height="42dp"
+            android:background="#CDC9C9"
+            android:layoutDirection="ltr"
+            android:tint="#000000"
+            app:srcCompat="?attr/actionModeCloseDrawable"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <View
+            android:id="@+id/view12"
+            android:layout_width="180dp"
+            android:layout_height="190dp"
+            android:background="#A6A3A3"
+
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="137dp" />
+
+        <View
+            android:id="@+id/view9"
+            android:layout_width="180dp"
+            android:layout_height="190dp"
+            android:background="#A6A3A3"
+
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="137dp" />
+
+        <View
+            android:id="@+id/view10"
+            android:layout_width="180dp"
+            android:layout_height="190dp"
+            android:background="#A6A3A3"
+
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="361dp" />
+
+        <View
+            android:id="@+id/view11"
+            android:layout_width="180dp"
+            android:layout_height="190dp"
+            android:background="#A6A3A3"
+
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="361dp" />
+
+        <View
+            android:id="@+id/view22"
+            android:layout_width="180dp"
+            android:layout_height="190dp"
+            android:background="#A6A3A3"
+
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="361dp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+            android:text="تكنولوجيا المعلومات في مكان العمل"
+            android:textColor="#000000"
+            android:textColorLink="#939393"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="241dp"
+            tools:layout_editor_absoluteY="269dp" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="130dp"
+            android:layout_height="115dp"
+            app:srcCompat="@drawable/hio"
+            tools:layout_editor_absoluteX="241dp"
+            tools:layout_editor_absoluteY="376dp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+            android:text="مقدمة في مهام الموارد البشرية"
+            android:textColor="#000000"
+            android:textColorLink="#939393"
+            android:textSize="11sp"
+            tools:layout_editor_absoluteX="241dp"
+            tools:layout_editor_absoluteY="490dp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+            android:text="مقدمة في التسويق عبر وسائل التواصل الاجتماعي "
+            android:textColorLink="#454444"
+            android:textSize="11sp"
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="490dp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/twaq"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="130dp"
+            android:layout_height="115dp"
+            app:srcCompat="@drawable/photoshop_cc_icon"
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="151dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="#CDC9C9"
+            android:tint="#434242"
+            app:srcCompat="@android:drawable/ic_dialog_dialer"
+            tools:layout_editor_absoluteX="349dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+            android:text="مقدمة في تصميم الجرافيك"
+            android:textColor="#000000"
+            android:textColorLink="#939393"
+            android:textSize="11sp"
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="269dp" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="130dp"
+            android:layout_height="115dp"
+            app:srcCompat="@drawable/test"
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="376dp" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="130dp"
+            android:layout_height="115dp"
+            app:srcCompat="@drawable/microsoft_office_2013_logo"
+            tools:layout_editor_absoluteX="241dp"
+            tools:layout_editor_absoluteY="151dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

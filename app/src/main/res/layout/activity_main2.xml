@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCC6C6"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-64dp">>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/back2"
+                android:layout_width="53dp"
+                android:layout_height="42dp"
+                android:background="#CDC9C9"
+                android:layoutDirection="ltr"
+                android:tint="#000000"
+                app:srcCompat="?attr/actionModeCloseDrawable"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="9dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                app:srcCompat="@drawable/twaq"
+                tools:layout_editor_absoluteX="149dp"
+                tools:layout_editor_absoluteY="9dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="#CDC9C9"
+                android:tint="#434242"
+                app:srcCompat="@android:drawable/ic_dialog_dialer"
+                tools:layout_editor_absoluteX="349dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <View
+                android:id="@+id/view23"
+                android:layout_width="180dp"
+                android:layout_height="190dp"
+                android:background="#A6A3A3"
+
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="360dp" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="180dp"
+                android:layout_height="190dp"
+                android:background="#A6A3A3"
+
+                tools:layout_editor_absoluteX="215dp"
+                tools:layout_editor_absoluteY="360dp" />
+
+            <View
+                android:id="@+id/view19"
+                android:layout_width="180dp"
+                android:layout_height="190dp"
+                android:background="#A6A3A3"
+
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="156dp" />
+
+            <View
+                android:id="@+id/view25"
+                android:layout_width="180dp"
+                android:layout_height="190dp"
+                android:background="#A6A3A3"
+
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="566dp" />
+
+            <View
+                android:id="@+id/view27"
+                android:layout_width="180dp"
+                android:layout_height="190dp"
+                android:background="#A6A3A3"
+
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="777dp" />
+
+            <View
+                android:id="@+id/view28"
+                android:layout_width="180dp"
+                android:layout_height="190dp"
+                android:background="#A6A3A3"
+
+                tools:layout_editor_absoluteX="215dp"
+                tools:layout_editor_absoluteY="775dp" />
+
+            <View
+                android:id="@+id/view26"
+                android:layout_width="180dp"
+                android:layout_height="190dp"
+                android:background="#A6A3A3"
+
+                tools:layout_editor_absoluteX="215dp"
+                tools:layout_editor_absoluteY="567dp" />
+
+            <View
+                android:id="@+id/view24"
+                android:layout_width="180dp"
+                android:layout_height="190dp"
+                android:background="#A6A3A3"
+
+                tools:layout_editor_absoluteX="215dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="130dp"
+                android:layout_height="115dp"
+                app:srcCompat="@drawable/microsoft_office_2013_logo"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="171dp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="130dp"
+                android:layout_height="115dp"
+                app:srcCompat="@drawable/photoshop_cc_icon"
+                tools:layout_editor_absoluteX="239dp"
+                tools:layout_editor_absoluteY="170dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:text="تكنولوجيا المعلومات في مكان العمل"
+                android:textColor="#000000"
+                android:textColorLink="#939393"
+                android:textSize="12sp"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="285dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:text="مقدمة في تصميم الجرافيك"
+                android:textColor="#000000"
+                android:textColorLink="#939393"
+                android:textSize="11sp"
+                tools:layout_editor_absoluteX="239dp"
+                tools:layout_editor_absoluteY="285dp" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="130dp"
+                android:layout_height="115dp"
+                app:srcCompat="@drawable/hio"
+                tools:layout_editor_absoluteX="241dp"
+                tools:layout_editor_absoluteY="376dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:text="مقدمة في مهام الموارد البشرية"
+                android:textColor="#000000"
+                android:textColorLink="#939393"
+                android:textSize="11sp"
+                tools:layout_editor_absoluteX="241dp"
+                tools:layout_editor_absoluteY="490dp" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="130dp"
+                android:layout_height="115dp"
+                app:srcCompat="@drawable/test"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="376dp" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:text="مقدمة في التسويق عبر وسائل التواصل الاجتماعي "
+                android:textColorLink="#454444"
+                android:textSize="11sp"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="490dp" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="130dp"
+                android:layout_height="115dp"
+                app:srcCompat="@drawable/integrity_commitment_decision"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="583dp" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:text="الأخلاقيات المهنية في بيئة العمل"
+                android:textColor="#000000"
+                android:textColorLink="#939393"
+                android:textSize="11sp"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="698dp" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="130dp"
+                android:layout_height="115dp"
+                app:srcCompat="@drawable/erw"
+                tools:layout_editor_absoluteX="241dp"
+                tools:layout_editor_absoluteY="583dp" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:text="ثقافة العمل عن بعد"
+                android:textColor="#000000"
+                android:textColorLink="#939393"
+                android:textSize="12sp"
+                tools:layout_editor_absoluteX="239dp"
+                tools:layout_editor_absoluteY="701dp" />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="130dp"
+                android:layout_height="115dp"
+                app:srcCompat="@drawable/sec"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="792dp" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:text="مقدمة في أمن المعلومات "
+                android:textColor="#000000"
+                android:textColorLink="#939393"
+                android:textSize="12sp"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="906dp" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="130dp"
+                android:layout_height="115dp"
+                app:srcCompat="@drawable/iot"
+                tools:layout_editor_absoluteX="241dp"
+                tools:layout_editor_absoluteY="791dp" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:text="إنترنت الأشياء والفرص الواعدة"
+                android:textColor="#000000"
+                android:textColorLink="#939393"
+                android:textSize="11sp"
+                tools:layout_editor_absoluteX="236dp"
+                tools:layout_editor_absoluteY="906dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="196dp"
+                android:layout_height="40dp"
+                android:text="جهات الدورات"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="107dp"
+                tools:layout_editor_absoluteY="82dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
